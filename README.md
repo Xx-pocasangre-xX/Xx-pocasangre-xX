@@ -7,3 +7,5 @@ Hola, soy Ricardo Pocasangre 👋
 ⚽Portero retirado (sin rodilla)
 <br>
 🔒no vuelvo a ser coordinador en la expo de esta explotacion (mi colegio)
+<br>
+❤💙En depresion eterna (soy hincha del barcelona)
