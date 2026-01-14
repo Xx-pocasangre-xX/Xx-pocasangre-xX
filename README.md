@@ -17,7 +17,7 @@
 
 # 💫 Sobre mi:
 
-🎓 Soy estudiante de 3° año de bachillerato en desarrollo de software en el Intituto Tecnico Ricaldone</br><br>🖥️ Desarrollandome como programador de paginas web, aplicaciones web y aplicaciones desktop</br><br>🛠️ Diseños UX UI </br><br>🌟 Nunca me doy por vencido y siempre quiero seguir aprendiendo mas de este increible mundo de la tecnologia</br><br>💡Tengo un 10%-15% de conocimiento de ingles y frances<br></br>📨 Contacto: danielpocasangre2006@gmail.com
+🎓 Soy graduado de bachillerato en desarrollo de software en el Intituto Tecnico Ricaldone</br><br>🖥️ Desarrollandome como programador de paginas web, aplicaciones web y aplicaciones desktop</br><br>🛠️ Diseños UX UI </br><br>🌟 Nunca me doy por vencido y siempre quiero seguir aprendiendo mas de este increible mundo de la tecnologia</br><br>💡Tengo un 10%-15% de conocimiento de ingles y frances<br></br>📨 Contacto: danielpocasangre2006@gmail.com
 </br>
 </br>
 </br>
