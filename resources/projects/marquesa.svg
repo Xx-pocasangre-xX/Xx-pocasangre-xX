@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="490" height="300" viewBox="0 0 490 300" role="img" aria-labelledby="t d">
-<title id="t">Marquesa</title><desc id="d">Tienda en línea de regalos personalizados, con pedidos, chat con el cliente y panel de administración. Frontend en React, chat en tiempo real (Socket.IO), ruleta y códigos de descuento, y app móvil con Expo.</desc>
+<title id="t">Marquesa</title><desc id="d">Tienda en línea de regalos personalizados, con pedidos, chat con el cliente y panel de administración. Frontend web en React, chat en tiempo real (Socket.IO) y ruleta de códigos de descuento (web y móvil).</desc>
 <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0b1020"/><stop offset="1" stop-color="#1b2a4a"/></linearGradient>
 <linearGradient id="ac" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#22d3ee"/><stop offset="1" stop-color="#818cf8"/></linearGradient></defs>
 <rect width="490" height="300" rx="16" fill="url(#bg)"/>
@@ -11,8 +11,8 @@
 <text x="28" y="110" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15" fill="#cbd5e1">Tienda en línea de regalos personalizados, con</text>
 <text x="28" y="132" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15" fill="#cbd5e1">pedidos, chat con el cliente y panel de administración.</text>
 <text x="28" y="158" font-family="Consolas, Menlo, monospace" font-size="12" fill="#818cf8">MI APORTE</text>
-<text x="28" y="179" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#e2e8f0">Frontend en React, chat en tiempo real (Socket.IO),</text>
-<text x="28" y="200" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#e2e8f0">ruleta y códigos de descuento, y app móvil con Expo.</text>
+<text x="28" y="179" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#e2e8f0">Frontend web en React, chat en tiempo real (Socket.IO)</text>
+<text x="28" y="200" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#e2e8f0">y ruleta de códigos de descuento (web y móvil).</text>
 <rect x="28" y="224" width="53" height="22" rx="11" fill="#ffffff" fill-opacity=".08"/>
 <text x="37" y="239" font-family="Consolas, Menlo, monospace" font-size="12" fill="#e2e8f0">React</text>
 <rect x="89" y="224" width="67" height="22" rx="11" fill="#ffffff" fill-opacity=".08"/>
