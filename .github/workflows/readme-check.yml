@@ -1,0 +1,35 @@
+name: Validar README
+
+on:
+  push:
+    branches: ["**"]
+  pull_request:
+  schedule:
+    - cron: "0 12 * * 1"
+
+jobs:
+  readme:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Archivos locales referenciados existen
+        run: |
+          grep -oE '(src|href)="(resources/[^"]+)"' README.md | cut -d'"' -f2 | sort -u | while read f; do
+            test -f "$f" || { echo "Falta $f"; exit 1; }
+          done
+
+      - name: Banner es un SVG válido
+        run: python3 -c "import xml.dom.minidom as m; m.parse('resources/banner.svg')"
+
+      - name: Lint de Markdown
+        uses: DavidAnson/markdownlint-cli2-action@v16
+        with:
+          globs: README.md
+          config: .markdownlint.json
+
+      - name: Enlaces
+        uses: lycheeverse/lychee-action@v2
+        with:
+          args: --no-progress --accept 200,429 --exclude 'mailto:' README.md
+          fail: true

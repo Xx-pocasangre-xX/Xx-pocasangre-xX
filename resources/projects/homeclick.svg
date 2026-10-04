@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="490" height="300" viewBox="0 0 490 300" role="img" aria-labelledby="t d">
+<title id="t">HomeClick</title><desc id="d">Plataforma inmobiliaria con catálogo de propiedades, búsqueda con filtros y panel administrativo. Login, registro y recuperación de contraseña, landing page responsive, carruseles y partes del backend.</desc>
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0b1020"/><stop offset="1" stop-color="#1b2a4a"/></linearGradient>
+<linearGradient id="ac" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#22d3ee"/><stop offset="1" stop-color="#818cf8"/></linearGradient></defs>
+<rect width="490" height="300" rx="16" fill="url(#bg)"/>
+<rect x=".5" y=".5" width="489" height="299" rx="16" fill="none" stroke="#818cf8" stroke-opacity=".35"/>
+<rect x="0" y="0" width="6" height="300" rx="3" fill="url(#ac)"/>
+<rect x="28" y="20" width="214" height="24" rx="12" fill="#22d3ee" fill-opacity=".14"/>
+<text x="39" y="36" font-family="Consolas, Menlo, monospace" font-size="12" fill="#22d3ee">COLABORACIÓN · EQUIPO DE 3</text>
+<text x="28" y="76" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="26" font-weight="700" fill="#f8fafc">HomeClick</text>
+<text x="28" y="110" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15" fill="#cbd5e1">Plataforma inmobiliaria con catálogo de propiedades,</text>
+<text x="28" y="132" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15" fill="#cbd5e1">búsqueda con filtros y panel administrativo.</text>
+<text x="28" y="158" font-family="Consolas, Menlo, monospace" font-size="12" fill="#818cf8">MI APORTE</text>
+<text x="28" y="179" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#e2e8f0">Login, registro y recuperación de contraseña, landing</text>
+<text x="28" y="200" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#e2e8f0">page responsive, carruseles y partes del backend.</text>
+<rect x="28" y="224" width="53" height="22" rx="11" fill="#ffffff" fill-opacity=".08"/>
+<text x="37" y="239" font-family="Consolas, Menlo, monospace" font-size="12" fill="#e2e8f0">React</text>
+<rect x="89" y="224" width="67" height="22" rx="11" fill="#ffffff" fill-opacity=".08"/>
+<text x="98" y="239" font-family="Consolas, Menlo, monospace" font-size="12" fill="#e2e8f0">Node.js</text>
+<rect x="164" y="224" width="67" height="22" rx="11" fill="#ffffff" fill-opacity=".08"/>
+<text x="173" y="239" font-family="Consolas, Menlo, monospace" font-size="12" fill="#e2e8f0">Express</text>
+<rect x="239" y="224" width="67" height="22" rx="11" fill="#ffffff" fill-opacity=".08"/>
+<text x="248" y="239" font-family="Consolas, Menlo, monospace" font-size="12" fill="#e2e8f0">MongoDB</text>
+<rect x="314" y="224" width="39" height="22" rx="11" fill="#ffffff" fill-opacity=".08"/>
+<text x="323" y="239" font-family="Consolas, Menlo, monospace" font-size="12" fill="#e2e8f0">JWT</text>
+</svg>
