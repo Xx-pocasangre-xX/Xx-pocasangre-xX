@@ -19,8 +19,11 @@ jobs:
             test -f "$f" || { echo "Falta $f"; exit 1; }
           done
 
-      - name: Banner es un SVG válido
-        run: python3 -c "import xml.dom.minidom as m; m.parse('resources/banner.svg')"
+      - name: Todos los SVG de resources/ son válidos
+        run: |
+          for f in resources/*.svg; do
+            python3 -c "import sys, xml.dom.minidom as m; m.parse(sys.argv[1])" "$f" || { echo "SVG inválido: $f"; exit 1; }
+          done
 
       - name: Lint de Markdown
         uses: DavidAnson/markdownlint-cli2-action@v16
@@ -31,5 +34,5 @@ jobs:
       - name: Enlaces
         uses: lycheeverse/lychee-action@v2
         with:
-          args: --no-progress --accept 200,429 --exclude 'mailto:' README.md
+          args: --no-progress --accept 200,429 --exclude 'mailto:' --exclude 'github-readme-(activity-graph|stats)[.]vercel[.]app' README.md
           fail: true
