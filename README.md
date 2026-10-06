@@ -1,9 +1,14 @@
-<!-- 1 · Actividad: calendario/gráfico de contribuciones con el tema "matrix" (verde sobre negro) -->
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Xx-pocasangre-xX&theme=matrix&hide_border=true&area=true&radius=10&custom_title=Actividad%20en%20GitHub" alt="Gráfico de actividad de GitHub de Ricardo Pocasangre" width="100%">
+  <img src="resources/banner.svg" alt="Ricardo Pocasangre — Desarrollador Full Stack y móvil" width="100%">
 </p>
 
-<!-- 2 · Lenguajes más usados (repositorios públicos), con acentos rosa, azul y cian -->
+<!-- Tablero de actividad: calendario de contribuciones propio (resources/activity.svg).
+     Lo genera .github/workflows/activity.yml cada día con scripts/build-activity.mjs. -->
+<p align="center">
+  <img src="resources/activity.svg" alt="Calendario de actividad de GitHub de Ricardo Pocasangre: un cuadro por día del último año, de verde a cian según las contribuciones" width="100%">
+</p>
+
+<!-- Lenguajes más usados (repositorios públicos), con acentos rosa, azul y cian -->
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Xx-pocasangre-xX&layout=compact&langs_count=8&card_width=500&custom_title=Lenguajes%20m%C3%A1s%20usados&bg_color=0d1117&border_color=58a6ff&title_color=ff79c6&text_color=8be9fd&border_radius=10" alt="Lenguajes más usados en los repositorios públicos de Ricardo Pocasangre" width="60%">
 </p>
