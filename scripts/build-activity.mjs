@@ -73,14 +73,24 @@ function sampleCalendar() {
 }
 
 // ── Dibujo ───────────────────────────────────────────────────────────────────
-function level(count, max) {
+// Niveles por cuartiles de los días con actividad (como GitHub): un día excepcional no apaga al resto
+function levelThresholds(weeks) {
+  const counts = weeks.flatMap((w) => w.contributionDays.map((d) => d.contributionCount)).filter((n) => n > 0).sort((x, y) => x - y);
+  const at = (q) => counts[Math.min(counts.length - 1, Math.floor(counts.length * q))] ?? 1;
+  return [at(0.25), at(0.5), at(0.75)];
+}
+
+function level(count, [q1, q2, q3]) {
   if (count <= 0) return 0;
-  return Math.min(4, Math.max(1, Math.ceil((count / max) * 4)));
+  if (count <= q1) return 1;
+  if (count <= q2) return 2;
+  if (count <= q3) return 3;
+  return 4;
 }
 
 function render(calendar, { sample = false } = {}) {
   const weeks = calendar.weeks;
-  const max = Math.max(1, ...weeks.flatMap((w) => w.contributionDays.map((d) => d.contributionCount)));
+  const thresholds = levelThresholds(weeks);
   const width = PAD * 2 + LEFT + weeks.length * STEP - GAP;
   const height = TOP + 7 * STEP - GAP + 54;
   const out = [];
@@ -111,7 +121,7 @@ function render(calendar, { sample = false } = {}) {
     }
     for (const day of week.contributionDays) {
       const y = TOP + day.weekday * STEP;
-      out.push(`<rect x="${x}" y="${y}" width="${CELL}" height="${CELL}" rx="2" fill="${LEVELS[level(day.contributionCount, max)]}"><title>${day.contributionCount} contribuciones el ${day.date}</title></rect>`);
+      out.push(`<rect x="${x}" y="${y}" width="${CELL}" height="${CELL}" rx="2" fill="${LEVELS[level(day.contributionCount, thresholds)]}"><title>${day.contributionCount} contribuciones el ${day.date}</title></rect>`);
     }
   });
   out.push('</g>');
