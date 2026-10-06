@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="905" height="190" viewBox="0 0 905 190" role="img" aria-labelledby="t">
+<title id="t">Calendario de actividad de GitHub: pendiente de actualizar</title>
+<rect width="905" height="190" rx="10" fill="#0d1117" stroke="#30363d"/>
+<text x="24" y="34" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="15" font-weight="700" fill="#ff79c6">Actividad en GitHub</text>
+<text x="452.5" y="99" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" fill="#6e7681">Generando el calendario de contribuciones… se actualiza automáticamente.</text>
+</svg>
