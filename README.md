@@ -1,5 +1,16 @@
+<!-- 1 · Actividad: calendario/gráfico de contribuciones con el tema "matrix" (verde sobre negro) -->
 <p align="center">
-  <img src="resources/banner.svg" alt="Ricardo Pocasangre — Desarrollador Full Stack y móvil" width="100%">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Xx-pocasangre-xX&theme=matrix&hide_border=true&area=true&radius=10&custom_title=Actividad%20en%20GitHub" alt="Gráfico de actividad de GitHub de Ricardo Pocasangre" width="100%">
+</p>
+
+<!-- 2 · Terminal estilo neofetch: retrato pixelado + datos del perfil (SVG propio, ver scripts/build-neofetch.py) -->
+<p align="center">
+  <img src="resources/neofetch.svg" alt="Terminal neofetch con el retrato de Ricardo Pocasangre y sus datos: rol, lenguajes, frameworks, herramientas y estudios" width="100%">
+</p>
+
+<!-- 3 · Lenguajes más usados (repositorios públicos), con acentos rosa, azul y cian -->
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Xx-pocasangre-xX&layout=compact&langs_count=8&card_width=500&custom_title=Lenguajes%20m%C3%A1s%20usados&bg_color=0d1117&border_color=58a6ff&title_color=ff79c6&text_color=8be9fd&border_radius=10" alt="Lenguajes más usados en los repositorios públicos de Ricardo Pocasangre" width="60%">
 </p>
 
 <p align="center">
@@ -20,6 +31,7 @@ Desarrollador de software con experiencia en el ciclo completo de un producto: d
 ## Experiencia
 
 ### Programador · Famolcas S.A. de C.V. (Lido)
+
 <img src="https://img.shields.io/badge/Mar_2026_--_actualidad-22d3ee?style=flat-square" alt="Marzo 2026 – actualidad"> <img src="https://img.shields.io/badge/C%23-239120?style=flat-square" alt="C#"> <img src="https://img.shields.io/badge/XAF-512BD4?style=flat-square" alt="XAF"> <img src="https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square" alt="Kotlin">
 
 - Desarrollo de módulos ERP escalables con C# y XAF.
@@ -27,6 +39,7 @@ Desarrollador de software con experiencia en el ciclo completo de un producto: d
 - Aplicaciones móviles nativas en Kotlin con integración de APIs REST.
 
 ### Desarrollador Full Stack · Marquesa
+
 <img src="https://img.shields.io/badge/Feb_2025_--_nov_2025-22d3ee?style=flat-square" alt="Febrero 2025 – noviembre 2025"> <img src="https://img.shields.io/badge/React-20232a?style=flat-square&logo=react&logoColor=61DAFB" alt="React"> <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square" alt="Node.js"> <img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square" alt="MongoDB"> <img src="https://img.shields.io/badge/WebSockets-0b1020?style=flat-square" alt="WebSockets">
 
 - Arquitectura frontend y backend con el stack MERN.
@@ -34,6 +47,7 @@ Desarrollador de software con experiencia en el ciclo completo de un producto: d
 - Diseño de interfaces con enfoque en la experiencia de usuario.
 
 ### Practicante de Desarrollo de Software · MOPT
+
 <img src="https://img.shields.io/badge/Nov_2024_--_ene_2025-22d3ee?style=flat-square" alt="Noviembre 2024 – enero 2025"> <img src="https://img.shields.io/badge/C%23-239120?style=flat-square" alt="C#"> <img src="https://img.shields.io/badge/ASP.NET-5C2D91?style=flat-square" alt="ASP.NET"> <img src="https://img.shields.io/badge/Figma-F24E1E?style=flat-square" alt="Figma"> <img src="https://img.shields.io/badge/IIS-0b1020?style=flat-square" alt="IIS">
 
 - Módulos administrativos institucionales en C# / ASP.NET.
