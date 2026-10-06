@@ -8,11 +8,6 @@
   <img src="resources/activity.svg" alt="Calendario de actividad de GitHub de Ricardo Pocasangre: un cuadro por día del último año, de verde a cian según las contribuciones" width="100%">
 </p>
 
-<!-- Lenguajes más usados (repositorios públicos), con acentos rosa, azul y cian -->
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Xx-pocasangre-xX&layout=compact&langs_count=8&card_width=500&custom_title=Lenguajes%20m%C3%A1s%20usados&bg_color=0d1117&border_color=58a6ff&title_color=ff79c6&text_color=8be9fd&border_radius=10" alt="Lenguajes más usados en los repositorios públicos de Ricardo Pocasangre" width="60%">
-</p>
-
 <p align="center">
   <a href="https://portafolio-ricardopocasangre.vercel.app"><img src="https://img.shields.io/badge/Portafolio-0b1020?style=flat-square&logo=vercel&logoColor=22d3ee" alt="Portafolio"></a>
   <a href="mailto:danielpocasangre2006@gmail.com"><img src="https://img.shields.io/badge/Correo-0b1020?style=flat-square&logo=gmail&logoColor=22d3ee" alt="Correo"></a>
@@ -95,6 +90,11 @@ Colaboraciones en equipo y proyectos propios.
   <img src="https://img.shields.io/badge/Git-F05033?style=flat-square&logo=git&logoColor=white" alt="Git">
   <img src="https://img.shields.io/badge/Figma-F24E1E?style=flat-square&logo=figma&logoColor=white" alt="Figma">
   <img src="https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=postman&logoColor=white" alt="Postman">
+</p>
+
+<!-- Lenguajes más usados (repositorios públicos), con acentos rosa, azul y cian -->
+<p>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Xx-pocasangre-xX&layout=compact&langs_count=8&card_width=500&custom_title=Lenguajes%20m%C3%A1s%20usados&bg_color=0d1117&border_color=58a6ff&title_color=ff79c6&text_color=8be9fd&border_radius=10" alt="Lenguajes más usados en los repositorios públicos de Ricardo Pocasangre" width="60%">
 </p>
 
 ## Educación
