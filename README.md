@@ -3,12 +3,7 @@
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=Xx-pocasangre-xX&theme=matrix&hide_border=true&area=true&radius=10&custom_title=Actividad%20en%20GitHub" alt="Gráfico de actividad de GitHub de Ricardo Pocasangre" width="100%">
 </p>
 
-<!-- 2 · Terminal estilo neofetch: retrato pixelado + datos del perfil (SVG propio, ver scripts/build-neofetch.py) -->
-<p align="center">
-  <img src="resources/neofetch.svg" alt="Terminal neofetch con el retrato de Ricardo Pocasangre y sus datos: rol, lenguajes, frameworks, herramientas y estudios" width="100%">
-</p>
-
-<!-- 3 · Lenguajes más usados (repositorios públicos), con acentos rosa, azul y cian -->
+<!-- 2 · Lenguajes más usados (repositorios públicos), con acentos rosa, azul y cian -->
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Xx-pocasangre-xX&layout=compact&langs_count=8&card_width=500&custom_title=Lenguajes%20m%C3%A1s%20usados&bg_color=0d1117&border_color=58a6ff&title_color=ff79c6&text_color=8be9fd&border_radius=10" alt="Lenguajes más usados en los repositorios públicos de Ricardo Pocasangre" width="60%">
 </p>
