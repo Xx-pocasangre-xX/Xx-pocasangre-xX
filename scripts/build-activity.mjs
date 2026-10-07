@@ -101,7 +101,6 @@ function render(calendar, { sample = false } = {}) {
   out.push('<style>',
     '.w{animation:llenar 11s linear infinite both}',
     '@keyframes llenar{0%{opacity:0}2%,80%{opacity:1}86%,100%{opacity:0}}',
-    '@media (prefers-reduced-motion:reduce){.w{animation:none}}',
     '</style>');
   out.push(`<rect width="${width}" height="${height}" rx="10" fill="${BG}" stroke="${BORDER}"/>`);
   out.push(`<text x="${PAD}" y="34" font-family="${MONO}" font-size="15" font-weight="700" fill="${PINK}">Actividad en GitHub</text>`);
