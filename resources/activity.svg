@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="874" height="220" viewBox="0 0 874 220" role="img" aria-labelledby="t d">
 <title id="t">Actividad en GitHub de Xx-pocasangre-xX</title>
-<desc id="d">Calendario con 218 contribuciones en el último año, un cuadro por día; más cian significa más actividad.</desc>
+<desc id="d">Calendario con 220 contribuciones en el último año, un cuadro por día; más cian significa más actividad.</desc>
 <style>
 .w{animation:llenar 11s linear infinite both}
 @keyframes llenar{0%{opacity:0}2%,80%{opacity:1}86%,100%{opacity:0}}
@@ -8,7 +8,7 @@
 </style>
 <rect width="874" height="220" rx="10" fill="#0d1117" stroke="#30363d"/>
 <text x="24" y="34" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="15" font-weight="700" fill="#ff79c6">Actividad en GitHub</text>
-<text x="850" y="34" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" fill="#c9d1d9"><tspan fill="#25d6a4" font-weight="700">218</tspan> contribuciones en el último año</text>
+<text x="850" y="34" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" fill="#c9d1d9"><tspan fill="#25d6a4" font-weight="700">220</tspan> contribuciones en el último año</text>
 <text x="24" y="89" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="10" fill="#6e7681">Lun</text>
 <text x="24" y="119" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="10" fill="#6e7681">Mié</text>
 <text x="24" y="149" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="10" fill="#6e7681">Vie</text>
@@ -497,7 +497,7 @@
 <rect x="838" y="64" width="12" height="12" rx="2" fill="#6cf5ec"><title>89 contribuciones el 2026-10-04</title></rect>
 <rect x="838" y="79" width="12" height="12" rx="2" fill="#111b17"><title>0 contribuciones el 2026-10-05</title></rect>
 <rect x="838" y="94" width="12" height="12" rx="2" fill="#6cf5ec"><title>10 contribuciones el 2026-10-06</title></rect>
-<rect x="838" y="109" width="12" height="12" rx="2" fill="#6cf5ec"><title>5 contribuciones el 2026-10-07</title></rect>
+<rect x="838" y="109" width="12" height="12" rx="2" fill="#6cf5ec"><title>7 contribuciones el 2026-10-07</title></rect>
 </g>
 </g>
 <text x="697" y="193" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="10" fill="#6e7681">Menos</text>
