@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="490" height="262" viewBox="0 0 490 262" role="img" aria-labelledby="t d">
-<title id="t">ISSS Salud</title><desc id="d">App móvil nativa para gestionar citas médicas, chatear con doctores y consultar noticias de salud. Interfaces de la app y módulo de chat.</desc>
+<title id="t">ISSS Salud</title><desc id="d">App móvil nativa para gestionar citas médicas, chatear con doctores y consultar noticias de salud. Interfaces de la app y pantallas de citas y noticias.</desc>
 <style>
 .c{animation:ent .8s cubic-bezier(.2,.7,.2,1) both}
 .b{animation:pulso 3.5s ease-in-out infinite}
@@ -19,7 +19,7 @@
 <text x="28" y="110" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15" fill="#cbd5e1">App móvil nativa para gestionar citas médicas, chatear</text>
 <text x="28" y="132" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15" fill="#cbd5e1">con doctores y consultar noticias de salud.</text>
 <text x="28" y="158" font-family="Consolas, Menlo, monospace" font-size="12" fill="#818cf8">MI APORTE</text>
-<text x="28" y="179" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#e2e8f0">Interfaces de la app y módulo de chat.</text>
+<text x="28" y="179" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#e2e8f0">Interfaces de la app y pantallas de citas y noticias.</text>
 <rect x="28" y="203" width="60" height="22" rx="11" fill="#ffffff" fill-opacity=".08"/>
 <text x="37" y="218" font-family="Consolas, Menlo, monospace" font-size="12" fill="#e2e8f0">Kotlin</text>
 <rect x="96" y="203" width="67" height="22" rx="11" fill="#ffffff" fill-opacity=".08"/>
