@@ -1,6 +1,18 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1000" height="260" viewBox="0 0 1000 260" role="img" aria-labelledby="t d">
   <title id="t">Ricardo Pocasangre</title>
   <desc id="d">Desarrollador Full Stack y móvil. C#, Kotlin, MERN.</desc>
+  <style>
+    .flota{animation:flota 9s ease-in-out infinite}
+    .flota2{animation:flota 12s ease-in-out infinite reverse}
+    .sube{animation:sube .9s cubic-bezier(.2,.7,.2,1) both}
+    .barra{transform-box:fill-box;transform-origin:left;animation:barra 1.2s .4s cubic-bezier(.2,.7,.2,1) both}
+    .cursor{animation:parpadeo 1s steps(1) infinite}
+    @keyframes flota{0%,100%{transform:translate(0,0)}50%{transform:translate(-26px,14px)}}
+    @keyframes sube{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
+    @keyframes barra{from{transform:scaleX(0)}to{transform:scaleX(1)}}
+    @keyframes parpadeo{50%{opacity:0}}
+    @media (prefers-reduced-motion:reduce){*{animation:none!important}}
+  </style>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#0b1020"/>
@@ -16,10 +28,10 @@
   </defs>
   <rect width="1000" height="260" rx="18" fill="url(#bg)"/>
   <rect width="1000" height="260" rx="18" fill="url(#grid)"/>
-  <circle cx="880" cy="60" r="150" fill="#22d3ee" fill-opacity=".07"/>
-  <circle cx="960" cy="230" r="110" fill="#818cf8" fill-opacity=".10"/>
-  <text x="64" y="108" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="54" font-weight="700" fill="#f8fafc">Ricardo Pocasangre</text>
-  <rect x="64" y="126" width="120" height="5" rx="2.5" fill="url(#ac)"/>
-  <text x="64" y="172" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="26" fill="#cbd5e1">Desarrollador Full Stack y móvil</text>
-  <text x="64" y="208" font-family="Consolas, Menlo, monospace" font-size="19" fill="#22d3ee">C# · .NET  |  Kotlin · Android  |  React · Node.js</text>
+  <circle class="flota" cx="880" cy="60" r="150" fill="#22d3ee" fill-opacity=".07"/>
+  <circle class="flota2" cx="960" cy="230" r="110" fill="#818cf8" fill-opacity=".10"/>
+  <text class="sube" x="64" y="108" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="54" font-weight="700" fill="#f8fafc">Ricardo Pocasangre</text>
+  <rect class="barra" x="64" y="126" width="120" height="5" rx="2.5" fill="url(#ac)"/>
+  <text class="sube" style="animation-delay:.25s" x="64" y="172" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="26" fill="#cbd5e1">Desarrollador Full Stack y móvil</text>
+  <text class="sube" style="animation-delay:.5s" x="64" y="208" font-family="Consolas, Menlo, monospace" font-size="19" fill="#22d3ee">C# · .NET  |  Kotlin · Android  |  React · Node.js</text>
 </svg>
