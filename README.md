@@ -18,10 +18,14 @@
 
 Desarrollador de software con experiencia en el ciclo completo de un producto: desde el diseño de la interfaz hasta la lógica de negocio en producción. Trabajo con **C# / .NET**, **Kotlin (Android)** y el stack **MERN**, con foco en software mantenible y centrado en el usuario.
 
+<p align="center"><img src="resources/divider.svg" alt="" width="100%"></p>
+
 ## Trabajo actual
 
 - **Famolcas S.A. de C.V. (Lido)** — módulos ERP y sistemas POS en C# / XAF, y aplicaciones móviles nativas en Kotlin con APIs REST.
 - **Formación** — Técnico en Desarrollo de Software en la UCA y Bootcamp Full Stack AI en Kodigo, en paralelo.
+
+<p align="center"><img src="resources/divider.svg" alt="" width="100%"></p>
 
 ## Experiencia
 
@@ -49,6 +53,8 @@ Desarrollador de software con experiencia en el ciclo completo de un producto: d
 - Prototipos en Figma y pruebas de calidad (QA).
 - Despliegue de aplicaciones en servidores IIS.
 
+<p align="center"><img src="resources/divider.svg" alt="" width="100%"></p>
+
 ## Proyectos destacados
 
 Colaboraciones en equipo y proyectos propios.
@@ -69,6 +75,8 @@ Colaboraciones en equipo y proyectos propios.
   &nbsp;·&nbsp;
   <a href="https://github.com/Xx-pocasangre-xX?tab=repositories"><b>Todos los repositorios</b></a>
 </p>
+
+<p align="center"><img src="resources/divider.svg" alt="" width="100%"></p>
 
 ## Stack
 
@@ -97,11 +105,15 @@ Colaboraciones en equipo y proyectos propios.
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Xx-pocasangre-xX&layout=compact&langs_count=8&card_width=500&custom_title=Lenguajes%20m%C3%A1s%20usados&bg_color=0d1117&border_color=58a6ff&title_color=ff79c6&text_color=8be9fd&border_radius=10" alt="Lenguajes más usados en los repositorios públicos de Ricardo Pocasangre" width="60%">
 </p>
 
+<p align="center"><img src="resources/divider.svg" alt="" width="100%"></p>
+
 ## Educación
 
 - **Técnico en Desarrollo de Software** — Universidad Centroamericana José Simeón Cañas (UCA), en curso
 - **Bootcamp Full Stack AI Jr** — Academia Kodigo, en curso
 - **Bachillerato Técnico en Desarrollo de Software** — Instituto Técnico Ricaldone, graduado en 2025
+
+<p align="center"><img src="resources/divider.svg" alt="" width="100%"></p>
 
 ## Contacto
 

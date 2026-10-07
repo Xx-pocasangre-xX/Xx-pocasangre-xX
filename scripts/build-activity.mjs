@@ -97,6 +97,12 @@ function render(calendar, { sample = false } = {}) {
   out.push(`<svg xmlns="http://www.w3.org/2000/svg" width="${width}" height="${height}" viewBox="0 0 ${width} ${height}" role="img" aria-labelledby="t d">`);
   out.push(`<title id="t">Actividad en GitHub de ${esc(USER)}</title>`);
   out.push(`<desc id="d">Calendario con ${calendar.totalContributions} contribuciones en el último año, un cuadro por día; más cian significa más actividad.</desc>`);
+  // Animación: una ola de brillo recorre el año en bucle.
+  out.push('<style>',
+    '.w{animation:ola 7s ease-in-out infinite both}',
+    '@keyframes ola{0%,55%,100%{opacity:1}22%{opacity:.25}}',
+    '@media (prefers-reduced-motion:reduce){.w{animation:none}}',
+    '</style>');
   out.push(`<rect width="${width}" height="${height}" rx="10" fill="${BG}" stroke="${BORDER}"/>`);
   out.push(`<text x="${PAD}" y="34" font-family="${MONO}" font-size="15" font-weight="700" fill="${PINK}">Actividad en GitHub</text>`);
   out.push(`<text x="${width - PAD}" y="34" text-anchor="end" font-family="${MONO}" font-size="13" fill="${TEXT}"><tspan fill="${LEVELS[3]}" font-weight="700">${calendar.totalContributions}</tspan> contribuciones en el último año</text>`);
@@ -119,10 +125,12 @@ function render(calendar, { sample = false } = {}) {
       out.push(`<text x="${x}" y="${TOP - 10}" font-family="${MONO}" font-size="10" fill="${DIM}">${MONTHS[month]}</text>`);
       lastMonth = month;
     }
+    out.push(`<g class="w" style="animation-delay:${(i * 0.07).toFixed(2)}s">`);
     for (const day of week.contributionDays) {
       const y = TOP + day.weekday * STEP;
       out.push(`<rect x="${x}" y="${y}" width="${CELL}" height="${CELL}" rx="2" fill="${LEVELS[level(day.contributionCount, thresholds)]}"><title>${day.contributionCount} contribuciones el ${day.date}</title></rect>`);
     }
+    out.push('</g>');
   });
   out.push('</g>');
 
