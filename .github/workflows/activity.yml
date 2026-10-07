@@ -4,7 +4,9 @@ name: Actualizar calendario de actividad
 # Corre a diario (en la rama principal), a mano, y cuando cambia el script o este flujo.
 on:
   schedule:
-    - cron: "17 5 * * *"
+    # 7:00 y 19:00 en El Salvador (UTC-6, sin horario de verano) = 13:00 y 01:00 UTC
+    - cron: "0 13 * * *"
+    - cron: "0 1 * * *"
   workflow_dispatch:
   push:
     paths:
